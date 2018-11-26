@@ -5,7 +5,7 @@ echo UploadImage();
      $image = '';
      $error_message = '';
      $ip = $_POST['ip'];
-     $list_allow_ip = array('123.30.51.36');
+     $list_allow_ip = array('123.30.51.37');
      
 
      if ($_SERVER["REQUEST_METHOD"] == "POST") {
